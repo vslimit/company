@@ -1,0 +1,38 @@
+development:
+  adapter: mysql2
+  database: ishua
+  encoding: utf8
+  username: ishua
+  password: ishua
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+staging:
+  adapter: mysql2
+  database: ishua
+  encoding: utf8
+  username: ishua
+  password: ishua
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+test:
+   adapter: mysql2
+   database: ishua_web_merchant_portal_test
+   encoding: utf8
+   username: ishua
+   password: ishua
+   host: 127.0.0.1
+   pool: 5
+   timeout: 5000
+production:
+  adapter: mysql2
+  database: ishua
+  encoding: utf8
+  username: ishua
+  password: ishua
+  host: 10.0.1.74
+  port: 3306
+  pool: 60
+  timeout: 5000
+
