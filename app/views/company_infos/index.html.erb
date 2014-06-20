@@ -1,0 +1,7 @@
+<h2>CompanyInfos</h2>
+<ul>
+  <% @company_infos.each do |company_info| %>
+    <li><%= link_to company_info.name,company_info %></li>
+  <% end %>
+</ul>
+<%= link_to 'New Company', new_company_info_path %>

@@ -1,0 +1,8 @@
+<% title(@company_info.name, 'Companys') %>
+<%= link_to 'Edit Company', edit_company_info_path(@company_info) %>
+<%= link_to 'Delete Company',
+            company_info_path(@company_info),
+            method: :delete,
+            data: { confirm:
+                            'Are you sure you want to delete this company'
+            } %>

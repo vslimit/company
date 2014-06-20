@@ -1,0 +1,23 @@
+<h2>New Company</h2>
+
+<% if @company_info.errors.any?%>
+    <div id="error_explanation">
+      <h2><%= pluralize(@company_info.errors.count, 'error') %>
+        prohibited this company_info from being saved:</h2>
+      <ul>
+        <% @company_info.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+<% end %>
+<%= form_for(@company_info) do |f| %>
+    <p>
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </p>
+    <p>
+      <%= f.label :description %><br />
+      <%= f.text_field :description %>
+      <%= f.submit %>
+<% end %>

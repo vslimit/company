@@ -1,6 +1,6 @@
 development:
   adapter: mysql2
-  database: ishua
+  database: company
   encoding: utf8
   username: ishua
   password: ishua
@@ -18,7 +18,7 @@ staging:
   timeout: 5000
 test:
    adapter: mysql2
-   database: ishua_web_merchant_portal_test
+   database: company_test
    encoding: utf8
    username: ishua
    password: ishua

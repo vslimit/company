@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="35247158">
+    <data-source source="LOCAL" name="Rails company: development" uuid="44a8a68a-6df2-4550-bb47-d02378d5376b">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/company</jdbc-url>
+      <user-name>ishua</user-name>
+      <user-password>dfc3dfd9dfc2dfdfdfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails company: staging" uuid="19f81025-b802-4514-8609-c604d42ec36f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/ishua</jdbc-url>
+      <user-name>ishua</user-name>
+      <user-password>dfc3dfd9dfc2dfdfdfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails company: test" uuid="3a83f187-3e76-49e1-a86f-cf32cf5413cf">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/company_test</jdbc-url>
+      <user-name>ishua</user-name>
+      <user-password>dfc3dfd9dfc2dfdfdfcb</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails company: production" uuid="ddafec51-e0d9-4572-949b-080e709e4d71">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.0.1.74:3306/ishua</jdbc-url>
+      <user-name>ishua</user-name>
+      <user-password>dfc3dfd9dfc2dfdfdfcb</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
